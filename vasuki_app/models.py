@@ -34,7 +34,7 @@ from django.db import models
 from django.utils.text import slugify
 from meta.models import ModelMeta
 
-class Blog(ModelMeta, models.Model):
+class Blog( models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField(unique=True, blank=True)
     content = models.TextField()

@@ -14,6 +14,8 @@ urlpatterns = [
     path('clients', views.client, name='clients'),
     path('details', views.details, name='details'),
     path("blogs/", views.blog_detail, name="blog_list"),
+    path("TOS", views.TOS, name="TOS"),
+    path("privacy", views.privacy, name="privacy"),
 
 
 
