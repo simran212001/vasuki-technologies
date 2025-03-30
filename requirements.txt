@@ -21,3 +21,7 @@ sqlparse==0.5.3
 twilio==9.5.0
 urllib3==2.3.0
 yarl==1.18.3
+
+
+
+google-site-verification=fZyt4BAJ5XDrF1kOYXJOdFd3SnrgIrlv52jCxXGGsEc
